@@ -1,0 +1,29 @@
+div.contact.form {
+	margin-top: 20px;
+}
+
+div.contact.form div {
+	padding: 2px 5px;
+	vertical-align: top;
+}
+
+div.contact.form div label {
+	width: 20%;
+	float: left;
+}
+
+div.contact.form div.buttons {
+	margin-top: 10px;
+}
+
+div.contact.form div.message.error {
+	color: #dd0000;
+}
+
+div.contact.form div.message.success {
+	color: #008000;
+}
+
+div.contact.form a.cancel {
+	margin-left: 50px;
+}
