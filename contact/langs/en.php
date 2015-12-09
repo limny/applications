@@ -18,5 +18,6 @@ def('CONTACT_STATUS', 'Status');
 def('CONTACT_SENTENCE_1', 'Please fill required fields.');
 def('CONTACT_SENTENCE_2', 'Invalid email address.');
 def('CONTACT_SENTENCE_3', 'Message submitted successfully.');
+def('CONTACT_SENTENCE_4', 'You cannot submit another message because you have sent 3 messages. Please try again later.');
 
 ?>

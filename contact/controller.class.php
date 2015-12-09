@@ -52,6 +52,9 @@ class ContactController {
 		else if (filter_var($email, FILTER_VALIDATE_EMAIL) === false)
 			return [false, CONTACT_SENTENCE_2];
 
+		if (ContactModel::count($_SERVER['REMOTE_ADDR']) >= 3)
+			return [false, CONTACT_SENTENCE_4];
+
 		return [true, true];
 	}
 }
