@@ -1,0 +1,7 @@
+.message {
+	padding: 10px;
+}
+
+#message {
+	min-height: 200px;
+}
